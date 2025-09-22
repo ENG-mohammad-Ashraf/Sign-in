@@ -128,6 +128,7 @@ a { text-decoration: none; color: black; font-weight: bold; font-size: small; }
     .form-group label {
         font-size: 13px;
     }
-    #submit { font-size: 13px; margin-top: 20px;  }
+    #submit { font-size: 13px; margin-top: 20px; background-color:white; }
 }
+
 
