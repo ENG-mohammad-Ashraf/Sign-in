@@ -40,8 +40,14 @@ body {
     font-size: 1.5rem;
 }
 #email{
-  padding-left: 1px;
-  padding-right: 1px;
+  padding-left: 0px;
+  padding-right: 0px;
+  cursor: pointer;
+  color:white;
+}
+#password{
+    cursor: pointer;
+    color:white;
 }
 
 /* Form Group */
@@ -124,3 +130,4 @@ a { text-decoration: none; color: black; font-weight: bold; font-size: small; }
     }
     #submit { font-size: 13px; margin-top: 20px;  }
 }
+
