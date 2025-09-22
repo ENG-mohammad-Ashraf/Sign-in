@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in</title>
+</head>
+<body>
+    <div class="container">
+        <form action="#" id="form">
+            <h1 class="header">Sign-in</h1>
+            <div class="form-group">
+             <input type="email" id="email" required >
+             <label for="email">Email</label>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" required style="padding-left: 0; padding-right: 0;">
+                <label for="pssword">password</label>
+            </div>
+            <div class="sh">
+                <div class="ch">
+                    <div class="show">
+                         <label style="font-size: small;" for="show">show</label>
+                        <input type="checkbox" name="checkbox" id="checkbox" onclick="showUp()">
+                    </div>
+                    <div class="link">
+                        <a href="#">forget Password?</a>
+                    </div>
+                </div>
+            </div>
+             <div class="form-group">
+                <input type="submit" id="submit" value="Sign-in" >
+            </div>
+
+        </form>
+    </div>
+    <script>
+        function showUp(){
+            let show=document.getElementById("password");
+            if(show.type==="password"){
+                show.type="text";
+            }
+            else{
+                show.type="password";
+            }
+        }
+    </script>
+</body>
+</html>
