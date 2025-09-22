@@ -39,22 +39,21 @@ body {
     margin-bottom: 30px;
     font-size: 1.5rem;
 }
-
 #email{
   padding-left: 0px;
   padding-right: 0px;
   cursor: pointer;
-  color:white;
+  color: white;
 }
 #password{
     cursor: pointer;
-    color:white;
+    color: white;
 }
-
 /* Form Group */
 .form-group {
     position: relative;
     margin-bottom: 1.5rem;
+    
 }
 
 .form-group input {
@@ -94,6 +93,7 @@ body {
 #submit { margin-top: 25px; font-weight: bold; cursor: pointer;  background-color: #fff; border: none; padding: 15px 10px;}
 a { text-decoration: none; color: black; font-weight: bold; font-size: small; }
 
+
 /* Media Queries لتكون responsive */
 @media (max-width: 768px) {
     .container {
@@ -129,8 +129,5 @@ a { text-decoration: none; color: black; font-weight: bold; font-size: small; }
     .form-group label {
         font-size: 13px;
     }
-    #submit { font-size: 13px; margin-top: 20px; background-color:white; }
+    #submit { font-size: 13px; margin-top: 20px;  }
 }
-
-
-
