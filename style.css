@@ -39,6 +39,7 @@ body {
     margin-bottom: 30px;
     font-size: 1.5rem;
 }
+
 #email{
   padding-left: 0px;
   padding-right: 0px;
@@ -90,7 +91,7 @@ body {
 /* Checkbox + submit + links */
 #checkbox { cursor: pointer; }
 .ch { display: flex; justify-content: space-around; }
-#submit { margin-top: 25px; font-weight: bold; }
+#submit { margin-top: 25px; font-weight: bold; cursor: pointer;  background-color: #fff; border: none; padding: 15px 10px;}
 a { text-decoration: none; color: black; font-weight: bold; font-size: small; }
 
 /* Media Queries لتكون responsive */
@@ -130,5 +131,6 @@ a { text-decoration: none; color: black; font-weight: bold; font-size: small; }
     }
     #submit { font-size: 13px; margin-top: 20px; background-color:white; }
 }
+
 
 
